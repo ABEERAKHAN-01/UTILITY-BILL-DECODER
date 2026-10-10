@@ -1,4 +1,4 @@
-# WTQ Build Track - Utility Bill Decoder
+Utility Bill Decoder
 
 Reads K-Electric / LESCO / IESCO electricity bill images and
 1. **Level 1** - extracts the bill into a fixed JSON schema,
