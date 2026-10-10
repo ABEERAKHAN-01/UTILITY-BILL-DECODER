@@ -58,7 +58,7 @@ Build the submission ZIP (validates CSVs, scans for leaked keys, checks 15 MB):
 
 ## AI usage
 
-- **Models used at runtime:** gemini-3.5-flash-lite (Google Gemini API, google-genai SDK) - *edit this line if you change MODEL_NAME*.
+- **Models used at runtime:** gemini-3.5-flash-lite (Google Gemini API, google-genai SDK)
 - **APIs / services:** Google Gemini API. Local libraries: Pillow (image handling). No OCR or invoice-extraction services.
 - **AI tools used to write the code:** Claude (claude.ai chat).
 - Everything the LLM does is verified or post-processed in code: schema normalisation, consistency checks, exact arithmetic.
